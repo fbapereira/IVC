@@ -1,0 +1,58 @@
+﻿<html ng-app="IVCApp">
+<head>
+    <title>Igreja Vida Em Cristo</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <!--Angular-->
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/angular-route.min.js"></script>
+    <script src="/App/App.js"></script>
+    <link href="/CSS/icon.css" rel="stylesheet" />
+    <link href="/CSS/materialize.css" rel="stylesheet" />
+    <link href="/CSS/style.css" rel="stylesheet" />
+    <script src="/JS/jquery-1.12.3.min.js"></script>
+    <script src="/JS/materialize.js"></script>
+</head>
+<body>
+    <form>
+        <div ng-include="'/Views/Header.html'" style="z-index:9999"></div>
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <h1 class="header center white-text text-lighten-2">Programação</h1>
+                    <div class="row center">
+                        <h5 class="header col s12 light">Venha curtir a nossa programação semanal</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax">
+                <img src="/img/Programacao.jpg" alt="background img 1">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="border-bottom-color:darkgray; border-bottom-width:1px">
+                <div class="col s12 m12">
+                    <h5 class="brown-text">
+                        Tadel  <small>Terça-feira às 20hrs</small>
+                    </h5>
+                    <p>
+                        Venha participar do Treinamento Avançado de Lideres
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="border-bottom-color:darkgray; border-bottom-width:1px">
+                <div class="col s12 m12">
+                    <h5 class="brown-text">
+                        Culto de Celebração <small>Domingo às 18hrs</small>
+                    </h5>
+                    <p>
+                        Nosso culto de celebração é rocks
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div ng-include="'/Views/Footer.html'" style="position: absolute;width: 100%;"></div>
+    </form>
+</body>
+</html>
