@@ -93,12 +93,20 @@
     <Content Include="Igreja\Discipulado.html" />
     <Content Include="Igreja\Agenda.html" />
     <Content Include="Igreja\Celula.html" />
+    <Content Include="Igreja\IDE.html" />
+    <Content Include="Igreja\IframeMaria.html" />
+    <Content Include="Igreja\maria.html" />
+    <Content Include="Igreja\Royalkids.html" />
     <Content Include="Igreja\Tadel.html" />
     <Content Include="Igreja\MDA.html" />
     <Content Include="Igreja\Programacao.html" />
     <Content Include="Igreja\Visao.html" />
     <Content Include="Igreja\Historia.html" />
     <Content Include="Igreja\Localizacao.html" />
+    <Content Include="img\agenda.jpg" />
+    <Content Include="img\background_Homepage_1.jpg" />
+    <Content Include="img\background_Homepage_2.jpg" />
+    <Content Include="img\background_Homepage_3.jpg" />
     <Content Include="img\celula.jpg" />
     <Content Include="img\embreve.jpg" />
     <Content Include="img\facebook-logo-button.png" />
@@ -107,7 +115,12 @@
     <Content Include="img\instagram-logo.png" />
     <Content Include="img\logo-topo.png" />
     <Content Include="img\logo.png" />
+    <Content Include="img\logo_maria.jpg" />
+    <Content Include="img\maria.jpg" />
     <Content Include="img\mar_morto.jpg" />
+    <Content Include="img\me5mbzx5sko-providence-doucet.jpg" />
+    <Content Include="img\programacao.jpg" />
+    <Content Include="img\RoyalKids.jpg" />
     <Content Include="img\twitter-logo-button.png" />
     <Content Include="img\visao.jpg" />
     <Content Include="img\youtube-logo.png" />
@@ -159,6 +172,8 @@
       <LastGenOutput>DAO.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Properties\PublishProfiles\OI.pubxml" />
+    <None Include="Properties\PublishProfiles\oo.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
